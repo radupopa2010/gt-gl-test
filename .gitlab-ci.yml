@@ -4,5 +4,6 @@ stages:
 test:
  script:
    - echo "Hello, world!"
-  tags: linux-docker-staging
+ tags:
+ - linux-docker-staging
 
