@@ -4,4 +4,6 @@ stages:
 test:
  script:
    - echo "Hello, world!"
+ tags:
+ - parity-simnet-devtest
 
