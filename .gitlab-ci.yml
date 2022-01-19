@@ -1,3 +1,8 @@
+
+variables:
+  GIT_STRATEGY:                    fetch
+  GIT_DEPTH:                       100
+  CI_IMAGE:                        "paritytech/ci-linux:production"
 stages:
   - test
 
